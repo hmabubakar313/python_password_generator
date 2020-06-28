@@ -3,9 +3,9 @@ import random
 
 lower = "abcdefghijklmnopqrstuvwxyz"
 upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-special = "!@#$%&*~?+-[]{}"
+special = "!@#$%&*~?+-"
 numbers = "1234567890"
 all = lower + upper + special + numbers
-length = 8
+length = 10
 password = "".join(random.sample(all,length))
 print(password)
